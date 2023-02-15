@@ -1,0 +1,45 @@
+<catalogo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="Il Vasari">
+	<item id="san-gerolamo" xml:id="veneziatico-san-gerolamo">
+		<dc:title>Le Vite de' più eccellenti pittori, scultori, e architettori</dc:title>
+		<dc:creator>Giorgio Vasari</dc:creator>
+		<dc:subject>Biografie di pittori,scultori e architetti tra Medioevo e Rinascimento</dc:subject>
+		<dc:description xml:lang="it">
+		<dc:title>Le vite de' più eccellenti pittori, scultori, e architettori</dc:title>
+		è una serie di 
+		<dc:subject>biografie </dc:subject>
+		scritta nel
+		<dc:date>XVI secolo</dc:date>
+		dal  dal pittore e architetto aretino
+		<dc:creator>Giorgio Vasari</dc:creator>
+		.Il trattato fu pubblicato nel
+		<dc:date>1550</dc:date>
+		da
+		<dc:publisher>Torrentini</dc:publisher>
+		ed ebbe uno straordinario successo che spinse l'autore a curare una seconda edizione ampiamente ingrandita e revisionata, pubblicata nel
+		<dc:date>1568</dc:date>
+		dalla famiglia
+		<dc:publisher>Giunti</dc:publisher>
+		È il primo libro organico di storia dell'arte che ci sia pervenuto, nonché la fonte, spesso unica, di notizie biografiche degli artisti a cavallo tra
+		<dc:date>Medioevo</dc:date>
+		e
+		<dc:date>Rinascimento</dc:date>
+		, nonché di informazioni su opere d'arte poi disperse, perdute o distrutte.
+		</dc:description>
+		<dc:date type="edizione analogica">1550</dc:date>
+		<dc:date type="edizione digitale">2012-04-27</dc:date>
+		<dc:publisher type="edizione analogica">stamperia di Lorenzo Torrentino</dc:publisher>
+		<dc:publisher type="edizione digitale">Internet Archive</dc:publisher>
+		<dc:type>biografia</dc:type>
+		<dc:format type="edizione analogica">libro cartaceo</dc:format>
+		<dc:format type="edizione digitale">PDF; ePub</dc:format>
+		<dc:identifier type="edizione analogica">85-B14829</dc:identifier>
+		<dc:language>it</dc:language>
+		<dc:relation>Raffaello</dc:relation>
+		<dc:relation> papa Giulio</dc:relation>
+		<dc:relation>San Gerolamo</dc:relation>
+		<dc:relation>San Giovanni</dc:relation>
+		<dc:relation>San Francesco</dc:relation>
+		<dc:coverage type="edizione analogica">Getty Reasearch Institute</dc:coverage>
+		<dc:coverage type="edizione digitale">Internet Archive</dc:coverage>
+	</item>
+</catalogo>

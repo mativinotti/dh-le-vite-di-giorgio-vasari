@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Le Vite di Giorgio Vasari</title>
+		<link rel="icon" type="image/x-icon" href=" img/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="container-fluid pt-2 pb-4">
+				<div class="row">
+					<div class="col-md-5">
+						<h1>Le Vite di Giorgio Vasari</h1>
+					</div>
+					<div class="col-md-5"></div>
+					<div class="col-md-2">
+						<div class="dropdown d-flex justify-content-end">
+						  <button class="btn btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  	IT | EN
+						  </button>
+						  <ul class="dropdown-menu">
+						    <li><a class="dropdown-item" href="#">Italiano</a></li>
+						    <li><a class="dropdown-item" href="#">English</a></li>
+						  </ul>
+						</div>
+                    </div>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+	 			<div class="container-fluid">
+	    			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	     			 <span class="navbar-toggler-icon"></span>
+	    			</button>
+	   			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        				<li class="nav-item">
+	          					<a class="nav-link" aria-current="page" href="index.html">HOME</a>
+	       					</li>
+	        				<li class="nav-item">
+	          					<a class="nav-link" href="linea-del-tempo.html">TEMPI</a>
+	          						<li class="nav-item dropdown"></li>
+	        				</li>
+	                        <li class="nav-item dropdown">
+	          					<a class="nav-link dropdown-toggle" href="#"role="button" data-bs-toggle="dropdown" aria-expanded="false">TESTO</a>
+	         					<ul class="dropdown-menu">
+	            					<li><a class="dropdown-item" href="#">Nuova dedica</a></li>
+	             					<li><hr class="dropdown-divider"></li>
+	            					<li><a class="dropdown-item" href="#">Prima dedica</a></li>
+	             				 	<li><hr class="dropdown-divider"></li>
+	            					<li><a class="dropdown-item" href="#">Dedica agli artisti</a></li>
+	              					<li><hr class="dropdown-divider"></li>
+	            					<li><a class="dropdown-item" href="#">Proemio</a></li>
+	              					<li><hr class="dropdown-divider"></li>
+	            					<li><a class="dropdown-item" href="#">Parte I</a></li>
+	              					<li><hr class="dropdown-divider"></li>
+	            					<li><a class="dropdown-item" href="#">Parte II</a></li>
+	              					<li><hr class="dropdown-divider"></li>
+	            					<li><a class="dropdown-item" href="#">Parte III</a></li>
+	              					<li><hr class="dropdown-divider"></li>
+	            					<li><a class="dropdown-item" href="#">Parte IV</a></li>
+	          					</ul>
+	        				</li>
+	        				<li class="nav-item">
+	          					<a class="nav-link" href="luoghi.html ">LUOGHI</a>
+	        						<li class="nav-item dropdown"></li>
+	        				</li>
+	        				<li class="nav-item">
+	          					<a class="nav-link" href="#">ARTISTI</a>
+	        						<li class="nav-item dropdown"></li>
+        					</li>
+	        				<li class="nav-item dropdown">
+	          					<a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">CATALOGO</a>
+	          					<ul class="dropdown-menu">
+	          						<li><a class="dropdown-item" href="#">Tutte le categorie</a></li>
+	              					<li><hr class="dropdown-divider"></li>
+	            					<li><a class="dropdown-item" href="#">Pittura</a></li>
+	              					<li><hr class="dropdown-divider"></li>
+	            					<li><a class="dropdown-item" href="#">Scultura</a></li>
+	              					<li><hr class="dropdown-divider"></li>
+	            					<li><a class="dropdown-item" href="#">Architettura</a></li>
+	          					</ul>
+	        				</li>
+	      				</ul>
+	      				<form class="d-flex" role="search">
+	        				<input class="form-control me-2" type="search" placeholder="trova nel sito" aria-label="Search">
+	        				<button class="btn btn-outline-success" type="submit">Cerca</button>
+	     				</form>
+    				</div>
+    			</div>
+			</nav>	
+			<div class="container-fluid pt-3">
+		       <nav aria-label="breadcrumb">
+		          <ol class="breadcrumb">
+		            <li class="breadcrumb-item"><a href="index.html" class="breadcrumb-link text-dark">Home</a></li>
+		            <li class="breadcrumb-item"><a href="#" class="breadcrumb-link text-dark">Catalogo</a></li>
+		            <li class="breadcrumb-item text-dark" aria-current="page"><b>Pittura</b></li>
+		          </ol>
+		         </nav>
+			</div>	
+		</header>
+		<main>
+			<div class="container-fluid pt-2 pb-5">
+				<div class="row text-center">
+					<h2>PITTURA</h2>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-2">
+				    			<aside>
+				    				<div class="pt-3">
+						    			<h5><i class="bi bi-filter-circle-fill"></i> Filtri</h5>
+						    			<hr/>
+						    			<div class="accordion" id="myaccordion">
+						    				<div class="accordion-item">
+											    <h2 class="accordion-header" id="headingOne">
+											      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+											        Tempi
+											      </button>
+											    </h2>
+											    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#myaccordion">
+											      <div class="accordion-body">
+													<div class="form-check">
+													  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+													  <label class="form-check-label" for="flexCheckDefault1">
+													    XIII secolo
+													  </label>
+													</div>
+													<div class="form-check">
+													  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+													  <label class="form-check-label" for="flexCheckDefault2">
+													    XIV secolo
+													  </label>
+													</div>
+													<div class="form-check">
+													  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+													  <label class="form-check-label" for="flexCheckDefault3">
+													    XV secolo
+													  </label>
+													</div>
+													<div class="form-check">
+													  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+													  <label class="form-check-label" for="flexCheckDefault2">
+													    XVI secolo
+													  </label>
+													</div>
+											      </div>
+											    </div>
+						    				</div>
+						    				<div class="accordion-item">
+											    <h2 class="accordion-header" id="headingTwo">
+											      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+											      Testo  
+											      </button>
+											    </h2>
+											    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#myaccordion">
+											      <div class="accordion-body">
+											        <div class="form-check">
+													  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+													  <label class="form-check-label" for="flexCheckDefault6">
+													    Parte I
+													  </label>
+													</div>
+													<div class="form-check">
+													  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+													  <label class="form-check-label" for="flexCheckDefault7">
+													    Parte II
+													  </label>
+													</div>
+													<div class="form-check">
+													  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+													  <label class="form-check-label" for="flexCheckDefault8">
+													    Parte III
+													  </label>
+													</div>
+													<div class="form-check">
+													  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+													  <label class="form-check-label" for="flexCheckDefault9">
+													    Parte IV
+													  </label>
+													</div>
+											      </div>
+											    </div>
+											</div>
+											<div class="accordion-item">
+											    <h2 class="accordion-header" id="headingThree">
+											      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+											        Luoghi
+											      </button>
+											    </h2>
+								 			</div>
+											<div class="accordion-item">
+											    <h2 class="accordion-header" id="headingFour">
+											      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFour" aria-expanded="false" aria-controls="collapseTwo">
+											        Artisti
+											      </button>
+											    </h2>
+								 			</div>
+								 			<div class="accordion-item">
+											    <h2 class="accordion-header" id="headingFive">
+											      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
+											        Catalogo
+											      </button>
+											    </h2>
+											    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#myaccordion">
+											      <div class="accordion-body">
+													<div class="form-check">
+													  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+													  <label class="form-check-label" for="flexCheckDefault1">
+													    Pittura
+													  </label>
+													</div>
+													<div class="form-check">
+													  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+													  <label class="form-check-label" for="flexCheckDefault2">
+													    Scultura
+													  </label>
+													</div>
+													<div class="form-check">
+													  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+													  <label class="form-check-label" for="flexCheckDefault3">
+													    Architettura
+													  </label>
+													</div>
+											      </div>
+											    </div>
+						    				</div>
+										</div>
+								 	</div>
+				    			</aside>
+				    		</div>
+				    		<div class="col-md-8 pt-3">
+				    			<div class="container">
+									<div class="row">	
+										<div class="col-md-12">
+											<ul class="nav nav-tabs" id="myTab" role="tablist">
+												<li class="nav-item">
+													<a class="nav-link active link-dark" id="all-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">Dipinti</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="a-tab" data-bs-toggle="tab" href="#a" role="tab" aria-controls="a" aria-selected="true">A</a>
+												</li>
+												<li class="nav-item"> 
+													<a class="nav-link disabled" id="b-tab" data-bs-toggle="tab" href="#b" role="tab" aria-controls="b" aria-selected="true">B</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="c-tab" data-bs-toggle="tab" href="#c" role="tab" aria-controls="c" aria-selected="true">C</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="d-tab" data-bs-toggle="tab" href="#d" role="tab" aria-controls="d" aria-selected="true">D</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="e-tab" data-bs-toggle="tab" href="#e" role="tab" aria-controls="e" aria-selected="true">E</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="f-tab" data-bs-toggle="tab" href="#f" role="tab" aria-controls="f" aria-selected="true">F</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="g-tab" data-bs-toggle="tab" href="#g" role="tab" aria-controls="g" aria-selected="true">G</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="h-tab" data-bs-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">H</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="i-tab" data-bs-toggle="tab" href="#i" role="tab" aria-controls="i" aria-selected="true">I</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="j-tab" data-bs-toggle="tab" href="#j" role="tab" aria-controls="j" aria-selected="true">J</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="k-tab" data-bs-toggle="tab" href="#k" role="tab" aria-controls="k" aria-selected="true">K</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="l-tab" data-bs-toggle="tab" href="#l" role="tab" aria-controls="l" aria-selected="true">L</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link link-dark" id="m-tab" data-bs-toggle="tab" href="#m" role="tab" aria-controls="m" aria-selected="true">M</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="n-tab" data-bs-toggle="tab" href="#n" role="tab" aria-controls="n" aria-selected="true">N</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="o-tab" data-bs-toggle="tab" href="#o" role="tab" aria-controls="o" aria-selected="true">O</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="p-tab" data-bs-toggle="tab" href="#p" role="tab" aria-controls="p" aria-selected="true">P</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="q-tab" data-bs-toggle="tab" href="#q" role="tab" aria-controls="q" aria-selected="true">Q</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="r-tab" data-bs-toggle="tab" href="#r" role="tab" aria-controls="r" aria-selected="true">R</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="s-tab" data-bs-toggle="tab" href="#s" role="tab" aria-controls="s" aria-selected="true">S</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="t-tab" data-bs-toggle="tab" href="#t" role="tab" aria-controls="t" aria-selected="true">T</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="u-tab" data-bs-toggle="tab" href="#u" role="tab" aria-controls="u" aria-selected="true">U</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="v-tab" data-bs-toggle="tab" href="#v" role="tab" aria-controls="v" aria-selected="true">V</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="w-tab" data-bs-toggle="tab" href="#w" role="tab" aria-controls="w" aria-selected="true">W</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="x-tab" data-bs-toggle="tab" href="#x" role="tab" aria-controls="x" aria-selected="true">X</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="y-tab" data-bs-toggle="tab" href="#y" role="tab" aria-controls="y" aria-selected="true">Y</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link disabled" id="z-tab" data-bs-toggle="tab" href="#z" role="tab" aria-controls="z" aria-selected="true">Z</a>
+												</li>
+											</ul>
+											<div class="tab-content" id="myTabContent">
+												<div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab"> 
+												</div>
+												<div class="tab-pane fade" id="m" role="tabpanel" aria-labelledby="a-tab">
+													<div class="row row-cols-1 row-cols-md-3 g-4 pt-5 pb-5">
+													  <div class="col">
+													    <div class="card">
+													      <img src="img/castelfiorentino-cimabue(1).jpg" class="card-img-top" alt=" Madonna di Castelfiorentino">
+													      <div class="card-body text-center">
+													        <a href="#" class="text2">Madonna di Castelfiorentino</a>
+													      </div>
+													    </div>
+													  </div>
+													  <div class="col">
+													    <div class="card">
+													      <img src="img/g-madonna-di-san-giorgio.jpg" class="card-img-top" alt=" Madonna di San Giorgio">
+													      <div class="card-body text-center">
+													      	<a href="#" class="text2">Madonna di San Giorgio</a>
+													      </div>
+														</div>
+													  </div>
+													  <div class="col">
+													    <div class="card">
+													      <img src="img/madonna-dreyfus(1).jpg" class="card-img-top" alt="Madonna Dreyfus">
+													      <div class="card-body text-center">
+													      	<a href="#" class="text2">Madonna Dreyfus</a>
+													      </div>
+													    </div>
+													  </div>
+													  <div class="col">
+													    <div class="card">
+													      <img src="img/giorgione-madonna(1).jpg" class="card-img-top" alt="Madonna col bambino in un paesaggio">
+													      <div class="card-body text-center">
+													      	<a href="#" class="text2">Madonna col bambino in un paesaggio</a>
+													      </div>
+													    </div>
+													  </div>
+													  <div class="col">
+													    <div class="card">
+													      <img src="img/madonna-folignox.jpg" class="card-img-top" alt="madonna di Foligno">
+													      <div class="card-body text-center">
+													      	<a href="madonna-di-foligno.html" class="text2">Madonna di Foligno</a>
+													      </div>
+													    </div>
+													  </div>
+													  <div class="col">
+													    <div class="card">
+													      <img src="img/correggio-maria-maddalena(1).jpg" class="card-img-top" alt="Maria Maddalena">
+													      <div class="card-body text-center">
+													      	<a href="#" class="text2">Maria Maddalena</a>
+													      </div>
+													    </div>
+													  </div>
+													  <div class="col">
+													    <div class="card">
+													      <img src="img/madonna-di-manchester-michelangelo(1).jpg" class="card-img-top" alt="Madonna di Manchester">
+													      <div class="card-body text-center">
+													      	<a href="#" class="text2">Madonna di Manchester</a>
+													      </div> 
+													    </div>
+													  </div>
+													  <div class="col">
+													    <div class="card">
+													      <img src="img/rosso-fiorentino(1).jpg" class="card-img-top" alt="Mosè difende le figlie di Jetro">
+													      <div class="card-body text-center">
+													      	<a href="#" class="text2">Mosè difende le figlie di Jetro</a>
+													      </div> 
+													    </div>
+													  </div>
+													  <div class="col">
+													    <div class="card">
+													      <img src="img/tiziano-madonna-penitente(1).jpg" class="card-img-top" alt="madonna penitente">
+													      <div class="card-body text-center">
+													      	<a href="#" class="text2">Madonna penitente</a>
+													      </div> 
+													    </div>
+													  </div>
+													</div>
+												</div>
+											</div>
+										</div>			
+									</div>					
+					 			</div>
+					 			<div class="row">
+					 				<nav aria-label="Page navigation">
+									  <ul class="pagination justify-content-center">
+									    <li class="page-item">
+									      <a class="page-link link-dark" href="#" aria-label="Previous">
+									        <span aria-hidden="true">&laquo;</span>
+									      </a>
+									    </li>
+									    <li class="page-item"><a class="page-link link-dark" href="#">1</a></li>
+									    <li class="page-item"><a class="page-link link-dark" href="#">2</a></li>
+									    <li class="page-item"><a class="page-link link-dark" href="#">3</a></li>
+									    <li class="page-item">
+									      <a class="page-link link-dark" href="#" aria-label="Next">
+									        <span aria-hidden="true">&raquo;</span>
+									      </a>
+									    </li>
+									  </ul>
+									</nav>
+								</div>
+					 		</div>	
+							<div class="col-md-2 pt-3">
+								<h6>APPROFONDIMENTI</h6>
+								<div class="card" style="width: 12rem;">
+								  <img src="img/ritratto-di-vasari.jpg" class="card-img-top" alt="ritratto vasari">
+								  <div class="card-body">
+								    <h5 class="card-title">Giorgio Vasari</h5>
+								    <p class="card-text">La vita,le opere e l'importanza storiografica</p>
+								    <a href="https://www.finestresullarte.info/arte-base/giorgio-vasari-vita-opere-importanza-storiografica" class="btn btn-outline-success">Vai al sito</a>
+								  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container-fluid p-4">
+				<div class="container bg-success">
+					<div class="row">
+						<div class="col-12 p-4">
+							<div class="row g-0">
+								<div class="col-md-6">
+									<h5>Le Vite di Giorgio Vasari</h5>
+									<ul class="no-lista">
+										<li><i class="bi bi-person"></i> Sito realizzato da <b>Matilde Vinotti</b></li>
+									    <li><i class="bi bi-book"></i> Corso Digital Humanities (2021-2022)</li>
+										<li><i class="bi bi-pin-map"></i> Dipartimento di Scienze Storiche e orientalistiche - Univerisità di Bologna</li>
+									</ul>  	
+								</div>	
+								<div class="col-md-6 ">
+									<h5>Contatti</h5>
+									<ul class="no-lista">
+										<li><i class="bi bi-globe"></i> //http......... url-github</a></li>
+										<li><i class="bi bi-envelope"></i> info@IlVasari.edu.it</a></li>
+										<li><i class="bi bi-telephone"></i> 555 049 579</li>
+										<li><i class="bi bi-instagram"></i> <i class="bi bi-facebook"></i> <i class="bi bi-twitter"></i></li>  
+									</ul>   
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+                    <p class="text-center">©Copyright 2023 - ALMA MATER STUDIORUM - Università di Bologna</p>
+				</div>	
+			</div>
+		</footer>				     			
+		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>	
+

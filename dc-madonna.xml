@@ -1,0 +1,37 @@
+<catalogo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="Il Vasari">
+	<item id="san-gerolamo" xml:id="veneziatico-san-gerolamo">
+		<dc:title>Madonna di Foligno</dc:title>
+		<dc:creator>Raffaello Sanzio</dc:creator>
+		<dc:subject>Madonna col bambino,i Santi Giovanni Battista,Francesco d'Assisi,Girolamo e il committente</dc:subject>
+		<dc:subject>dipinto;pittura;dipinto a olio trasportato su tela;arte sacra;dipinto del XVI secolo</dc:subject>
+		<dc:description xml:lang="it">
+		La
+		<dc:subject>Madonna di Foligno</dc:subject>
+		di
+		<dc:creator>Raffaello Sanzio</dc:creator>
+		è
+		<dc:type>un dipinto a olio su tavola, trasportata su tela</dc:type>
+		databile
+		<dc:date>1511-1512</dc:date>
+		e conservato nella
+		<dc:coverage>Pinacoteca Vaticana</dc:coverage>
+		nella
+		<dc:coverage>Città del Vaticano.</dc:coverage>
+		Il dipinto venne commissionato da
+		<dc:relation>Sigismondo de' Conti</dc:relation>
+		segretario di
+		<dc:relation>Giulio II</dc:relation>
+		come ex voto per il miracolo che aveva visto uscire la sua casa di Foligno illesa dopo un evento di non chiara origine (bolide o fulmine globulare).L'opera, che fu la prima pala d'altare romana dipinta da
+		<dc:subject>Raffaello</dc:subject>
+		si trovava sopra l'altare maggiore della Basilica di Santa Maria in Aracoeli a Roma
+		nella cui abside era collocata la tomba di
+		<dc:relation>Sigismondo</dc:relation>
+		.
+		</dc:description>
+		<dc:date>1511-1512</dc:date>
+		<dc:type>dipinto a olio su tavola,trasportata su tela</dc:type>
+		<dc:identifier type="Musei Vaticani">	Inv. 40329</dc:identifier>
+		<dc:coverage>Pinacoteca Vaticana nella Città del Vticano</dc:coverage>
+		<dc:relation>Le vite de' più eccellenti pittori, scultori, e architettori-Giorgio Vasari</dc:relation>
+	</item>
+</catalogo>

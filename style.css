@@ -1,0 +1,119 @@
+/*footer*/
+.no-lista {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+/*carosello*/
+.carousel-caption{
+	background-color:  rgba(46,139,87, .7);
+	left: 15%; 
+	right: 0; 
+	width: 70%; 
+}
+
+
+/*accordion filtri*/
+.accordion-button:hover{
+	color:seagreen;
+}
+.form-check-input:checked{
+	background-color: seagreen;
+	border-color:black;
+}
+/*link*/
+a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*box zoom*/
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}
+
+/*card catalogo \ card pittura \ card luoghi*/ 
+.text {
+  font-family:'Lora', serif; 
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+ }
+ .text2 {
+  font-family:'Lora', serif; 
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+ }
+
+  .text3 {
+  font-family:'Lora', serif; 
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+ }
+
+.text:hover {
+  color: seagreen;
+}
+
+.text2:hover {
+  color: seagreen;
+}
+
+.text3:hover {
+  color: seagreen;
+}
+
+.no-decoration{
+  text-decoration: none;
+}
+
+/*h1 font*/
+h1 {
+	font-family: 'Lora', serif;
+}
+/*h3 font*/
+h3{
+	font-family: 'Lora', serif;
+}
+/*p font*/
+p{
+	font-family: 'Lora', serif;
+	font-size:20 px ;
+}
+/*h4 font*/
+h4{
+	font-family: 'Lora', serif;
+}
+/*h2 font*/
+h2{
+	font-family: 'Lora', serif;
+}
+/*h6 font*/
+h6{
+	font-family: 'Lora', serif;
+}
+/*h5 font*/
+h5, class-title{
+	font-family: 'Lora', serif;
+}

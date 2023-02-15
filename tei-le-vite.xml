@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Le vite de' più eccellenti pittori, scultori, e architettori</title>
+				<author xml:id="GV">Giorgio Vasari</author>
+				<sponsor>Research Library, The Getty Research Institute</sponsor>
+				<funder>Research Library, The Getty Research Institute</funder>
+				<principal>Internet Archive</principal>
+				<respStmt>
+					<resp>Codifica Tei</resp>
+					<resp>trascrizione</resp>
+					<name xml:id="MV">Matilde Vinotti</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Internet Archive</publisher>
+				<address>
+					<pubPlace>San Francisco</pubPlace>
+					<addrLine>300 Funston Avenue</addrLine>
+				</address>
+				<aviability>Questa testo è liberamente consultabile</aviability>
+				<idno> gri_vitedepivecc01vasa</idno>
+				<date>2012-04-27</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>Le vite de' più eccellenti pittori, scultori, e architettori</title>
+					<author>Giorgio Vasari</author>
+					<date>1550</date>
+					<publisher>stamperia di Lorenzo Torrentino</publisher>
+					<pubPlace>Firenze</pubPlace>
+					<editor>Lorenzo Torrentino</editor>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Testo analizzato all'interno del progetto "Il Vasari"come fonte bibliografica degli artisti più famosi del periodo compreso tra Medioevo e Rinascimento</p>
+			</projectDesc>
+			<classDecl>
+				<taxonomy id="CDD">
+					<bibl>Classificazione decimale Dewey</bibl>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<creation>
+				<date>1550</date>
+				<name type="luogo">Firenze,Itali</name>
+			</creation>
+			<langUsage>
+				<language ident="it">Italiano</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="it">
+		<body>
+			<div  type="Sezione">
+				<head>Vita di Raffaello d'Urbino Pittore et Architetto</head>
+				<p>
+					Poi, stimolato da’ prieghi d’un cameriere di  papa Giulio, dipinse la tavola dello altar maggiore di Araceli, nella quale fece unaNostra Donna in aria, con un paese bellissimo, un San Giovanni et un San Francesco, e San Girolamo ritratto da cardinale; nella qual Nostra Donna è una umiltà e modestia veramente da madre di Cristo; et oltre che il Putto con bella attitudine scherza co ’l manto della Madre, si conosce nella figura del San Giovanni quella penitenza che suole fare il digiuno, e nella testa si scorge una sincerità d’animo et una prontezza di sicurtà, come in coloro che lontani dal mondo lo sbeffano e nel praticare il publico odiano la bugia e dicono la verità. Similmente il San Girolamo ha la testa elevata con gli occhi alla Nostra Donna, tutta contemplativa, ne’ quali par che ci accenni tutta quella dottrina e sapienzia che egli scrivendo mostrò nelle sue carte, offerendo con ambe le mani il cameriero, in atto di raccomandarlo, il qual cameriero nel suo ritratto è non men vivo che si sia dipinto. Né mancò Raffaello fare il medesimo nella figura di San Francesco, il quale ginocchioni in terra, con un braccio steso e con la testa elevata, guarda in alto la Nostra Donna, ardendo di carità nello affetto della pittura, la quale nel lineamento e nel colorito mostra che e’ si strugga di affezzione, pigliando conforto e vita dal mansuetissimo guardo della bellezza di lei e dalla vivezza e bellezza del Figliuolo. Fecevi Raffaello un putto ritto in mezzo della tavola sotto la Nostra Donna, che alza la testa verso lei e tiene un epitaffio, che di bellezza di volto e di corrispondenza della persona non si può fare, né più grazioso, né meglio, oltre che v’è un paese che in tutta perfezzione è singulare e bellissimo.
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
